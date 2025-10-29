@@ -57,7 +57,8 @@ public class Player : MonoBehaviour
 
         //decrease oxygen over time
         oxygen -= oxyegenRatePS * Time.deltaTime;
-
+        //clamp oxygen
+        oxygen = Mathf.Clamp(oxygen, 0, 100);
     }
 
     private void FixedUpdate()
@@ -78,18 +79,19 @@ public class Player : MonoBehaviour
     public int MaxDamageTaken = 10;
     public int MinDamageTaken = 5;
     public float minSpeedDamage = 4;
-    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("hit");
-        if (collision.gameObject.tag == "Ground")
+
+        GameObject collidedObject = collision.gameObject;
+        
+        if (collidedObject.tag == "Ground")//if we hit the ground
         {
-            
             float currentVelocity = previousTrackingSpeed.magnitude;
             if (currentVelocity < minSpeedDamage) return;
             health -= Mathf.FloorToInt(damageTaken(currentVelocity));
-        }
+
+        } 
     }
 
     public float damageTaken(float speed)
