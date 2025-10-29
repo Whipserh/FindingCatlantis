@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
 
         //controlling speed over pools
         if (rb.linearVelocity.magnitude < 0.01) rb.linearVelocity = Vector2.zero;
-        rb.linearVelocity = rb.linearVelocity * Mathf.Clamp(rb.linearVelocity.magnitude, 0, MaxSPEED);
+        rb.linearVelocity = rb.linearVelocity.normalized  * Mathf.Clamp(rb.linearVelocity.magnitude, 0, MaxSPEED);
     }
 
 
