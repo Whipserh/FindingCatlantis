@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     private Vector2 movement;
     private KeyCode LEFT, RIGHT, UP, DOWN;
 
-    public int health = 100;
     public float oxygen = 100;
     [SerializeField] private float oxyegenRatePS = 1;
     private Vector2 previousTrackingSpeed;
@@ -89,7 +88,7 @@ public class Player : MonoBehaviour
         {
             float currentVelocity = previousTrackingSpeed.magnitude;
             if (currentVelocity < minSpeedDamage) return;
-            health -= Mathf.FloorToInt(damageTaken(currentVelocity));
+            oxygen -= Mathf.FloorToInt(damageTaken(currentVelocity));
 
         } 
     }
