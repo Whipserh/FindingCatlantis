@@ -5,17 +5,17 @@ public class CatlantisCollider : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("You Find Catlantis!!!");
+        Debug.Log("You find Catlantis!!!");
     }
 }
