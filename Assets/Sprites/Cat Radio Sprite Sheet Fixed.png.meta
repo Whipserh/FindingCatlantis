@@ -1,25 +1,46 @@
 fileFormatVersion: 2
-guid: 5f3431ead181dd94196571b5888a89d4
+guid: 0e6045d2ffef6d045ad105c348b54dff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1569664776760536474
-    second: Cat Radio Sprite Sheet_0
+      213: 1320800432621847135
+    second: Cat Radio Sprite Sheet Fixed_0
   - first:
-      213: -8229070965937378873
-    second: Cat Radio Sprite Sheet_1
+      213: -5857032343017048431
+    second: Cat Radio Sprite Sheet Fixed_1
   - first:
-      213: 9069575348025555568
-    second: Cat Radio Sprite Sheet_2
+      213: -4383594022467550647
+    second: Cat Radio Sprite Sheet Fixed_2
   - first:
-      213: 5869362528616235992
-    second: Cat Radio Sprite Sheet_3
+      213: 1343711803645927127
+    second: Cat Radio Sprite Sheet Fixed_3
   - first:
-      213: -4557693430970702815
-    second: Cat Radio Sprite Sheet_4
+      213: -6981294766935665384
+    second: Cat Radio Sprite Sheet Fixed_4
   - first:
-      213: -8136308855915283999
-    second: Cat Radio Sprite Sheet_5
+      213: 7329986442125983073
+    second: Cat Radio Sprite Sheet Fixed_5
+  - first:
+      213: -199991412547855471
+    second: Cat Radio Sprite Sheet Fixed_6
+  - first:
+      213: -4966702320991867082
+    second: Cat Radio Sprite Sheet Fixed_7
+  - first:
+      213: -8303112381562341521
+    second: Cat Radio Sprite Sheet Fixed_8
+  - first:
+      213: 141778324918118566
+    second: Cat Radio Sprite Sheet Fixed_9
+  - first:
+      213: -238720759769327490
+    second: Cat Radio Sprite Sheet Fixed_10
+  - first:
+      213: 4053051010645785272
+    second: Cat Radio Sprite Sheet Fixed_11
+  - first:
+      213: -676935567317693191
+    second: Cat Radio Sprite Sheet Fixed_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,57 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cat Radio Sprite Sheet_0
+      name: Cat Radio Sprite Sheet Fixed_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 3
-        width: 336
-        height: 388
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9d214b4cc198c510800000000000000
-      internalID: 1569664776760536474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cat Radio Sprite Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 3
-        width: 374
-        height: 431
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c962d35e877ccd80800000000000000
-      internalID: -8229070965937378873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cat Radio Sprite Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 767
+        x: 0
         y: 0
-        width: 381
-        height: 367
+        width: 380
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07af3b2f9ba9ddd70800000000000000
-      internalID: 9069575348025555568
+      spriteID: f528b9ddefc645210800000000000000
+      internalID: 1320800432621847135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat Radio Sprite Sheet_3
+      name: Cat Radio Sprite Sheet Fixed_1
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 1
-        width: 307
-        height: 432
+        x: 380
+        y: 0
+        width: 380
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d3c8206f1a247150800000000000000
-      internalID: 5869362528616235992
+      spriteID: 196be7cad14a7bea0800000000000000
+      internalID: -5857032343017048431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat Radio Sprite Sheet_4
+      name: Cat Radio Sprite Sheet Fixed_2
       rect:
         serializedVersion: 2
-        x: 1535
-        y: 3
-        width: 323
-        height: 413
+        x: 760
+        y: 0
+        width: 380
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1242cd3e8f1dfb0c0800000000000000
-      internalID: -4557693430970702815
+      spriteID: 942cb4b36785a23c0800000000000000
+      internalID: -4383594022467550647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat Radio Sprite Sheet_5
+      name: Cat Radio Sprite Sheet Fixed_3
       rect:
         serializedVersion: 2
-        x: 1892
-        y: 3
-        width: 331
-        height: 392
+        x: 1140
+        y: 0
+        width: 380
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +217,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e9fd4c1436061f80800000000000000
-      internalID: -8136308855915283999
+      spriteID: 7de90d024c2d5a210800000000000000
+      internalID: 1343711803645927127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat Radio Sprite Sheet Fixed_4
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 380
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8159180e5657d1f90800000000000000
+      internalID: -6981294766935665384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat Radio Sprite Sheet Fixed_5
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 380
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d395b45d759b560800000000000000
+      internalID: 7329986442125983073
       vertices: []
       indices: 
       edges: []
@@ -250,7 +271,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e5f5472d66a5114fb738e107ad78fab
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +281,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cat Radio Sprite Sheet_0: 1569664776760536474
-      Cat Radio Sprite Sheet_1: -8229070965937378873
-      Cat Radio Sprite Sheet_2: 9069575348025555568
-      Cat Radio Sprite Sheet_3: 5869362528616235992
-      Cat Radio Sprite Sheet_4: -4557693430970702815
-      Cat Radio Sprite Sheet_5: -8136308855915283999
+      Cat Radio Sprite Sheet Fixed_0: 1320800432621847135
+      Cat Radio Sprite Sheet Fixed_1: -5857032343017048431
+      Cat Radio Sprite Sheet Fixed_2: -4383594022467550647
+      Cat Radio Sprite Sheet Fixed_3: 1343711803645927127
+      Cat Radio Sprite Sheet Fixed_4: -6981294766935665384
+      Cat Radio Sprite Sheet Fixed_5: 7329986442125983073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
