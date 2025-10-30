@@ -10,9 +10,10 @@ public class Player : MonoBehaviour
     private KeyCode LEFT, RIGHT, UP, DOWN;
 
     public float oxygen = 100;
+    public static float MaxOxygen = 100;
     [SerializeField] private float oxyegenRatePS = 1;
     private Vector2 previousTrackingSpeed;
-
+    private UIScript playerUI;
 
     Rigidbody2D rb;
     void Start()
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour
 
         movement = Vector2.zero;
         rb = GetComponent<Rigidbody2D>();
+        playerUI = GetComponent<UIScript>();
     }
 
     
@@ -57,7 +59,9 @@ public class Player : MonoBehaviour
         //decrease oxygen over time
         oxygen -= oxyegenRatePS * Time.deltaTime;
         //clamp oxygen
-        oxygen = Mathf.Clamp(oxygen, 0, 100);
+        oxygen = Mathf.Clamp(oxygen, 0, MaxOxygen);
+        //update the UI
+        playerUI.setHealth(oxygen);
     }
 
     private void FixedUpdate()
