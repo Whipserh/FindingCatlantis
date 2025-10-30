@@ -1,12 +1,9 @@
 using UnityEngine;
-using UnityEngine.UI;
 
-public class UIScript : MonoBehaviour
+public class PlayerAnimation : MonoBehaviour
 {
+    public Animator animator;
     public Player player;
-    public Image oxygenLevel;
-    public float oxygenWidth;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,6 +13,6 @@ public class UIScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        oxygenLevel.fillAmount = player.oxygen / 100;
+        animator.SetFloat("Speed", player.movement.magnitude);
     }
 }
