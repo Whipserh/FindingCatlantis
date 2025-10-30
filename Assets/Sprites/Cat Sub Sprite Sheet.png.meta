@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f3458fa94fe4844392f1c14aa946fb1
+guid: e5b4711be433eac43b482150e3a46b70
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -108,19 +108,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -128,10 +115,10 @@ TextureImporter:
       name: Cat Sub Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 335
-        height: 211
+        x: 0
+        y: 0
+        width: 350
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +137,10 @@ TextureImporter:
       name: Cat Sub Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 348
-        y: 2
-        width: 346
-        height: 211
+        x: 350
+        y: 0
+        width: 350
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +159,10 @@ TextureImporter:
       name: Cat Sub Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 701
-        y: 2
-        width: 348
-        height: 211
+        x: 700
+        y: 0
+        width: 350
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +181,10 @@ TextureImporter:
       name: Cat Sub Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 1049
-        y: 1
-        width: 347
-        height: 211
+        x: 1050
+        y: 0
+        width: 350
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +203,10 @@ TextureImporter:
       name: Cat Sub Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 1402
-        y: 1
-        width: 348
-        height: 211
+        x: 1400
+        y: 0
+        width: 350
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c9a63fc463bf4bc41acac774d8888a15
     internalID: 0
     vertices: []
     indices: 

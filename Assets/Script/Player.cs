@@ -6,7 +6,7 @@ using UnityEngine.Rendering;
 public class Player : MonoBehaviour
 {
     [SerializeField] private float acceleration = 1, MaxSPEED;
-    private Vector2 movement;
+    public Vector2 movement;
     private KeyCode LEFT, RIGHT, UP, DOWN;
 
     public float oxygen = 100;

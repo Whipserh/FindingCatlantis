@@ -1,7 +1,9 @@
 using UnityEngine;
 
-public class CatlantisCollider : MonoBehaviour
+public class PlayerAnimation : MonoBehaviour
 {
+    public Animator animator;
+    public Player player;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -11,11 +13,6 @@ public class CatlantisCollider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("You find Catlantis!!!");
+        animator.SetFloat("Speed", player.movement.magnitude);
     }
 }
