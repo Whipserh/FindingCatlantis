@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d7bd4d4cf4323854499dc392795090be
+guid: 90dc35083514ebb48bf30098619d4949
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6207403392291654833
-    second: rock tiles_0
+      213: -8776880148875690322
+    second: Catlantis Coin_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock tiles_0
+      name: Catlantis Coin_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 576
-        height: 576
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bc491f3f70252650800000000000000
-      internalID: 6207403392291654833
+      spriteID: eae361aa102423680800000000000000
+      internalID: -8776880148875690322
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rock tiles_0: 6207403392291654833
+      Catlantis Coin_0: -8776880148875690322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
