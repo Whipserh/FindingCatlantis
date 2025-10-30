@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f0725626dd0bff44ba98f8d9ec0ebd96
+guid: ba38238cb20a0754eb635b4b498bbb06
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3484398832257864790
-    second: sea_down_middle_0
+      213: -8373391323728436399
+    second: rock_tiles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sea_down_middle_0
+      name: rock_tiles_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2048
-        height: 2048
+        width: 576
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 654148cd6421b5030800000000000000
-      internalID: 3484398832257864790
+      spriteID: 15324d784fcbbcb80800000000000000
+      internalID: -8373391323728436399
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sea_down_middle_0: 3484398832257864790
+      rock_tiles_0: -8373391323728436399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
