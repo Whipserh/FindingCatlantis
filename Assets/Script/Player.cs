@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         //initallizing variables
-        LEFT = KeyCode.A; RIGHT = KeyCode.D; UP = KeyCode.W; DOWN = KeyCode.S;
+        LEFT = KeyCode.LeftArrow; RIGHT = KeyCode.RightArrow; UP = KeyCode.UpArrow; DOWN = KeyCode.DownArrow;
         movement = Vector2.zero;
         rb = GetComponent<Rigidbody2D>();
         playerUI = GetComponent<UIScript>();
