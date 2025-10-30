@@ -11,7 +11,7 @@ public class Bubble : MonoBehaviour
 
         if (collidedObject.CompareTag("Player"))
         {
-                collidedObject.GetComponentInParent<Player>().oxygen += repairValue;
+                collidedObject.GetComponentInParent<Player>().addOxygen(repairValue);
             Destroy(gameObject);
         }
     }

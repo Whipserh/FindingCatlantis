@@ -9,17 +9,24 @@ public class Player : MonoBehaviour
     public Vector2 movement;
     private KeyCode LEFT, RIGHT, UP, DOWN;
 
-    public float oxygen = 100;
+    //variables for managing oxygen
+    private float oxygen = 100;
     public static float MaxOxygen = 100;
     [SerializeField] private float oxyegenRatePS = 1;
     private Vector2 previousTrackingSpeed;
-    private UIScript playerUI;
 
+    //variables for player taking damage
+    [SerializeField] private int MaxDamageTaken = 10;
+    [SerializeField] private int MinDamageTaken = 5;
+    [SerializeField] private float minSpeedDamage = 4;
+
+    private UIScript playerUI;
     Rigidbody2D rb;
+
     void Start()
     {
+        //initallizing variables
         LEFT = KeyCode.A; RIGHT = KeyCode.D; UP = KeyCode.W; DOWN = KeyCode.S;
-
         movement = Vector2.zero;
         rb = GetComponent<Rigidbody2D>();
         playerUI = GetComponent<UIScript>();
@@ -81,10 +88,7 @@ public class Player : MonoBehaviour
         previousTrackingSpeed = rb.linearVelocity;
     }
 
-    public int MaxDamageTaken = 10;
-    public int MinDamageTaken = 5;
-    public float minSpeedDamage = 4;
-
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
@@ -105,6 +109,15 @@ public class Player : MonoBehaviour
         float x = (speed - minSpeedDamage)/ Mathf.Abs(minSpeedDamage - MaxSPEED);
 
         return (1 - x)*MinDamageTaken + x * MaxDamageTaken;
+    }
 
+    public float getOxyegn()
+    {
+        return oxygen;
+    }
+
+    public void addOxygen(float addedO2)
+    {
+        oxygen += addedO2;
     }
 }
