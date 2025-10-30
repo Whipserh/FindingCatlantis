@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Navigator : MonoBehaviour
 {
-    AudioSource meow;
+    public AudioSource meow;
     public AudioClip meowF;
     public AudioClip meowG;
     public AudioClip meowLeft;

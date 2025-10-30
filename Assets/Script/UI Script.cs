@@ -11,9 +11,6 @@ public class UIScript : MonoBehaviour
         oxygenBar.value = 1;
     }
 
-    /**
-     * 
-     * */
     public void setHealth(float health)
     {
         oxygenBar.value = health/Player.MaxOxygen;
