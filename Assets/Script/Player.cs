@@ -45,9 +45,11 @@ public class Player : MonoBehaviour
         //horizontal controls
         if (Input.GetKey(LEFT))
         {
+            transform.localScale = new Vector3(1, 1, 1);
             movement.x = -1;
         } else if (Input.GetKey(RIGHT))
         {
+            transform.localScale = new Vector3(-1, 1, 1);
             movement.x = 1;
         }
         else
