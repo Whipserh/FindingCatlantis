@@ -77,6 +77,9 @@ public class Player : MonoBehaviour
         oxygen = Mathf.Clamp(oxygen, 0, MaxOxygen);
         //update the UI
         playerUI.setHealth(oxygen);
+
+
+        //stuff
     }
 
     private void FixedUpdate()
