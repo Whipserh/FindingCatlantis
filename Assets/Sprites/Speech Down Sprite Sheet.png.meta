@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: ef30d71acd9cab04b92c49610b3622c4
+guid: ed52cc542e619184ab3a07cc7e6860c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5790706508787050489
-    second: Speech Up Sprite Sheet_0
+      213: 5972186083222487955
+    second: Speech Down Sprite Sheet_0
   - first:
-      213: -5440179285097177445
-    second: Speech Up Sprite Sheet_1
+      213: -6830025439670272998
+    second: Speech Down Sprite Sheet_1
   - first:
-      213: -7868632934719940677
-    second: Speech Up Sprite Sheet_2
+      213: -8856092970325547608
+    second: Speech Down Sprite Sheet_2
   - first:
-      213: -644963284041400649
-    second: Speech Up Sprite Sheet_3
+      213: 3044154640851275093
+    second: Speech Down Sprite Sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Speech Up Sprite Sheet_0
+      name: Speech Down Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 437
-        height: 479
+        x: 9
+        y: 15
+        width: 419
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70894395c1743afa0800000000000000
-      internalID: -5790706508787050489
+      spriteID: 3930207c99771e250800000000000000
+      internalID: 5972186083222487955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Speech Up Sprite Sheet_1
+      name: Speech Down Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 437
-        y: 0
-        width: 437
-        height: 479
+        x: 461
+        y: 15
+        width: 404
+        height: 415
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9e185573c99084b0800000000000000
-      internalID: -5440179285097177445
+      spriteID: a1c7295bc00e631a0800000000000000
+      internalID: -6830025439670272998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Speech Up Sprite Sheet_2
+      name: Speech Down Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 874
-        y: 0
-        width: 437
-        height: 479
+        x: 904
+        y: 15
+        width: 343
+        height: 325
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb7141229000dc290800000000000000
-      internalID: -7868632934719940677
+      spriteID: 8a569e57d56d81580800000000000000
+      internalID: -8856092970325547608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Speech Up Sprite Sheet_3
+      name: Speech Down Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 1311
-        y: 0
-        width: 437
-        height: 479
+        x: 1340
+        y: 15
+        width: 64
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7befa817f41ac07f0800000000000000
-      internalID: -644963284041400649
+      spriteID: 55d0c4964820f3a20800000000000000
+      internalID: 3044154640851275093
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cbb078ff806d1314dabec8758d68eca6
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Speech Up Sprite Sheet_0: -5790706508787050489
-      Speech Up Sprite Sheet_1: -5440179285097177445
-      Speech Up Sprite Sheet_2: -7868632934719940677
-      Speech Up Sprite Sheet_3: -644963284041400649
+      Speech Down Sprite Sheet_0: 5972186083222487955
+      Speech Down Sprite Sheet_1: -6830025439670272998
+      Speech Down Sprite Sheet_2: -8856092970325547608
+      Speech Down Sprite Sheet_3: 3044154640851275093
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

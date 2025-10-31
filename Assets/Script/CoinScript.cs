@@ -19,6 +19,7 @@ public class CoinScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponentInParent<Player>().addCoinsCollected();
+            //Debug.Log("A coin");
             Destroy(gameObject);
         }
     }

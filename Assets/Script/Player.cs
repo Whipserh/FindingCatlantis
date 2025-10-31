@@ -130,5 +130,6 @@ public class Player : MonoBehaviour
     public void addCoinsCollected()
     {
         coinsCollected++;
+        playerUI.setCoinsCollected();
     }
 }
