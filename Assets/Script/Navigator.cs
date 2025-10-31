@@ -4,11 +4,14 @@ using UnityEngine;
 public class Navigator : MonoBehaviour
 {
     public AudioSource meow;
-    public AudioClip meowF;
+    public AudioClip meowF;         //Huh?
     public AudioClip meowG;         //approve
-    public AudioClip meowLeft;
-    public AudioClip meowRight;     //angry
+    public AudioClip meowLeft;      //Hiss
+    public AudioClip meowRight;     //Aoww
     public TextMeshProUGUI radioText;
+    public AudioClip victory;
+    public AudioClip victoryMeow;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -42,5 +45,11 @@ public class Navigator : MonoBehaviour
             meow.PlayOneShot(meowRight, 1);
             radioText.text = "Aoww!";
         }
+    }
+
+    public void VictorySound()
+    {
+        meow.PlayOneShot(victory);
+        meow.PlayOneShot(victoryMeow);
     }
 }
