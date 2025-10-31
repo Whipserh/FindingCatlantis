@@ -40,11 +40,11 @@ public class Player : MonoBehaviour
     {
         #region controls
         //vertical controls
-        if (Input.GetKey(UP))
+        if (Input.GetKeyDown(UP))
         {
             movement.y = 1;
         }
-        else if (Input.GetKey(DOWN))
+        else if (Input.GetKeyUp(DOWN))
         {
             movement.y = -1;
         }
@@ -55,12 +55,12 @@ public class Player : MonoBehaviour
 
 
         //horizontal controls
-        if (Input.GetKey(LEFT))
+        if (Input.GetKeyDown(LEFT))
         {
             transform.localScale = new Vector3(1, 1, 1);
             movement.x = -1;
         }
-        else if (Input.GetKey(RIGHT))
+        else if (Input.GetKeyDown(RIGHT))
         {
             transform.localScale = new Vector3(-1, 1, 1);
             movement.x = 1;
@@ -77,14 +77,23 @@ public class Player : MonoBehaviour
         oxygen = Mathf.Clamp(oxygen, 0, MaxOxygen);
         //update the UI
         playerUI.setHealth(oxygen);
+
+
+        //moved the player movement hear because its based off of frame input
+        rb.AddForce(movement * powerForce);
     }
 
+
+    [SerializeField] private float powerForce = 10;
     private void FixedUpdate()
     {
         //Debug.Log(acceleration * Time.fixedDeltaTime * movement.normalized);
-
+        #region uses velocity code - !!commented out
         //add added speed to velcocity
-        rb.linearVelocity += acceleration * Time.fixedDeltaTime * movement.normalized;
+        //rb.linearVelocity += acceleration * Time.fixedDeltaTime * movement.normalized;
+        #endregion
+
+        
 
         //controlling speed over pools
         if (rb.linearVelocity.magnitude < 0.01) rb.linearVelocity = Vector2.zero;
