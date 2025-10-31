@@ -1,10 +1,37 @@
 fileFormatVersion: 2
-guid: f83454099f44ec540bbadf6b5b1414c8
+guid: de215a1fb7339e84a9413f9c9866d4c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6611962524617840650
-    second: inversed rock tile sheet_0
+      213: 4600066791107708449
+    second: Cat Ded Sprite Sheet_0
+  - first:
+      213: 2833094943355285373
+    second: Cat Ded Sprite Sheet_1
+  - first:
+      213: 8810124218117998948
+    second: Cat Ded Sprite Sheet_2
+  - first:
+      213: 7068292631853532453
+    second: Cat Ded Sprite Sheet_3
+  - first:
+      213: -1726606646662660081
+    second: Cat Ded Sprite Sheet_4
+  - first:
+      213: -5662859441461779140
+    second: Cat Ded Sprite Sheet_5
+  - first:
+      213: 3811642104657735646
+    second: Cat Ded Sprite Sheet_6
+  - first:
+      213: -5338758992833018072
+    second: Cat Ded Sprite Sheet_7
+  - first:
+      213: -6410427889827380336
+    second: Cat Ded Sprite Sheet_8
+  - first:
+      213: -8484323026762122600
+    second: Cat Ded Sprite Sheet_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inversed rock tile sheet_0
+      name: Cat Ded Sprite Sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 192
-        height: 192
+        y: 0
+        width: 350
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,184 +142,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a089a0c62e862cb50800000000000000
-      internalID: 6611962524617840650
+      spriteID: 126cb03df58b6df30800000000000000
+      internalID: 4600066791107708449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inversed rock tile sheet_1
+      name: Cat Ded Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
-        width: 192
-        height: 192
+        x: 351
+        y: 1
+        width: 348
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d16a87724a411b047a148d78d870f6ad
-      internalID: 36788107
+      spriteID: d7fa5a137dc215720800000000000000
+      internalID: 2833094943355285373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inversed rock tile sheet_2
+      name: Cat Ded Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 192
-        height: 192
+        x: 705
+        y: 4
+        width: 322
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7401283a493c8474cb07cd24665c263d
-      internalID: 1695782805
+      spriteID: 4694dff5c49d34a70800000000000000
+      internalID: 8810124218117998948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inversed rock tile sheet_3
+      name: Cat Ded Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 192
-        height: 192
+        x: 1106
+        y: 164
+        width: 12
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d373a3ba8a3e3354a8e8084d5164f691
-      internalID: 1532598686
+      spriteID: 525042203be971260800000000000000
+      internalID: 7068292631853532453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inversed rock tile sheet_4
+      name: Cat Ded Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 192
-        height: 192
+        x: 1189
+        y: 154
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1e322e951bff47b40b9623b359b65769
-      internalID: 1414498809
+      spriteID: f0008de176cd908e0800000000000000
+      internalID: -1726606646662660081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inversed rock tile sheet_5
+      name: Cat Ded Sprite Sheet_5
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
-        width: 192
-        height: 192
+        x: 1061
+        y: 88
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7a07ba85b1f0d484586d0069af3ef781
-      internalID: 1183153883
+      spriteID: c3524b2575b7961b0800000000000000
+      internalID: -5662859441461779140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inversed rock tile sheet_6
+      name: Cat Ded Sprite Sheet_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 192
-        height: 192
+        x: 1074
+        y: 13
+        width: 298
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d46c9057b3e2d514e99030aefa1cb04b
-      internalID: -1516055669
+      spriteID: edfeb0b9c4ca5e430800000000000000
+      internalID: 3811642104657735646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inversed rock tile sheet_7
+      name: Cat Ded Sprite Sheet_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 192
-        height: 192
+        x: 1423
+        y: 19
+        width: 299
+        height: 143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3cfd46cfe55ed6b4ba1504bdf3e48177
-      internalID: -608364983
+      spriteID: 82704c26bfae8e5b0800000000000000
+      internalID: -5338758992833018072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inversed rock tile sheet_8
+      name: Cat Ded Sprite Sheet_8
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 192
-        height: 192
+        x: 1114
+        y: 17
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fb1a002b836dfc84f847eea82fbc05bb
-      internalID: -108205710
+      spriteID: 09305905cc59907a0800000000000000
+      internalID: -6410427889827380336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat Ded Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a3d26b821a14a80800000000000000
+      internalID: -8484323026762122600
       vertices: []
       indices: 
       edges: []
@@ -301,7 +350,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0bee1bbd6b4d08340975e1aacd7a0a7b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -311,15 +360,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      inversed rock tile sheet_0: 6611962524617840650
-      inversed rock tile sheet_1: 36788107
-      inversed rock tile sheet_2: 1695782805
-      inversed rock tile sheet_3: 1532598686
-      inversed rock tile sheet_4: 1414498809
-      inversed rock tile sheet_5: 1183153883
-      inversed rock tile sheet_6: -1516055669
-      inversed rock tile sheet_7: -608364983
-      inversed rock tile sheet_8: -108205710
+      Cat Ded Sprite Sheet_0: 4600066791107708449
+      Cat Ded Sprite Sheet_1: 2833094943355285373
+      Cat Ded Sprite Sheet_2: 8810124218117998948
+      Cat Ded Sprite Sheet_3: 7068292631853532453
+      Cat Ded Sprite Sheet_4: -1726606646662660081
+      Cat Ded Sprite Sheet_5: -5662859441461779140
+      Cat Ded Sprite Sheet_6: 3811642104657735646
+      Cat Ded Sprite Sheet_7: -5338758992833018072
+      Cat Ded Sprite Sheet_8: -6410427889827380336
+      Cat Ded Sprite Sheet_9: -8484323026762122600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
