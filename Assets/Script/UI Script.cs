@@ -22,7 +22,7 @@ public class UIScript : MonoBehaviour
 
     public void setCoinsCollected()
     {
-        audioSource.PlayOneShot(coinSound);
+        audioSource.PlayOneShot(coinSound, 0.6f);
         coinsCollectedText.text = player.coinsCollected.ToString();
     }
 }
