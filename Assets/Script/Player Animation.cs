@@ -13,6 +13,6 @@ public class PlayerAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        animator.SetFloat("Speed", player.movement.magnitude);
+        animator.SetFloat("Speed", player.GetComponent<Rigidbody2D>().linearVelocity.magnitude);
     }
 }

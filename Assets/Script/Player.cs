@@ -40,11 +40,11 @@ public class Player : MonoBehaviour
     {
         #region controls
         //vertical controls
-        if (Input.GetKey(UP))
+        if (Input.GetKeyDown(UP))
         {
             movement.y = 1;
         }
-        else if (Input.GetKey(DOWN))
+        else if (Input.GetKeyUp(DOWN))
         {
             movement.y = -1;
         }
@@ -55,12 +55,12 @@ public class Player : MonoBehaviour
 
 
         //horizontal controls
-        if (Input.GetKey(LEFT))
+        if (Input.GetKeyDown(LEFT))
         {
             transform.localScale = new Vector3(1, 1, 1);
             movement.x = -1;
         }
-        else if (Input.GetKey(RIGHT))
+        else if (Input.GetKeyDown(RIGHT))
         {
             transform.localScale = new Vector3(-1, 1, 1);
             movement.x = 1;
@@ -78,19 +78,21 @@ public class Player : MonoBehaviour
         //update the UI
         playerUI.setHealth(oxygen);
 
+        rb.AddForce(movement * power);
 
         //stuff
     }
-
+    public float power = 45;
     private void FixedUpdate()
     {
         //Debug.Log(acceleration * Time.fixedDeltaTime * movement.normalized);
 
         //add added speed to velcocity
-        rb.linearVelocity += acceleration * Time.fixedDeltaTime * movement.normalized;
+        //rb.linearVelocity += acceleration * Time.fixedDeltaTime * movement.normalized;
+        
 
         //controlling speed over pools
-        if (rb.linearVelocity.magnitude < 0.01) rb.linearVelocity = Vector2.zero;
+        if (rb.linearVelocity.magnitude < 0.5) rb.linearVelocity = Vector2.zero;
         rb.linearVelocity = rb.linearVelocity.normalized * Mathf.Clamp(rb.linearVelocity.magnitude, 0, MaxSPEED);
 
         //stays at the bottom to keep previous speed

@@ -33,13 +33,13 @@ public class Navigator : MonoBehaviour
             meow.PlayOneShot(meowG, 0.6f);
             radioText.text = "Meow~";
         }
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             meow.Stop();
             meow.PlayOneShot(meowLeft, 2);
             radioText.text = "Hiss!";
         }
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButtonDown(1))
         {
             meow.Stop();
             meow.PlayOneShot(meowRight, 1);
