@@ -21,25 +21,25 @@ public class Navigator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             meow.Stop();
             meow.PlayOneShot(meowF, 0.3f);
             radioText.text = "Huh?";
         }
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.S))
         {
             meow.Stop();
             meow.PlayOneShot(meowG, 0.6f);
             radioText.text = "Meow~";
         }
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             meow.Stop();
             meow.PlayOneShot(meowLeft, 2);
             radioText.text = "Hiss!";
         }
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             meow.Stop();
             meow.PlayOneShot(meowRight, 1);
