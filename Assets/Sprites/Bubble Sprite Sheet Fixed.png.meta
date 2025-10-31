@@ -136,10 +136,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 219
-        height: 218
+        x: 1
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,10 +158,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_1
       rect:
         serializedVersion: 2
-        x: 220
-        y: 0
-        width: 218
-        height: 218
+        x: 221
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +180,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_2
       rect:
         serializedVersion: 2
-        x: 439
-        y: 0
-        width: 218
-        height: 218
+        x: 440
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,9 +203,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 658
-        y: 0
-        width: 219
-        height: 218
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_4
       rect:
         serializedVersion: 2
-        x: 877
-        y: 0
-        width: 219
-        height: 218
+        x: 878
+        y: 1
+        width: 217
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_5
       rect:
         serializedVersion: 2
-        x: 1096
-        y: 0
-        width: 219
-        height: 218
+        x: 1098
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +268,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_6
       rect:
         serializedVersion: 2
-        x: 1315
-        y: 0
-        width: 219
-        height: 218
+        x: 1317
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +290,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_7
       rect:
         serializedVersion: 2
-        x: 1535
-        y: 0
-        width: 218
-        height: 218
+        x: 1536
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +312,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_8
       rect:
         serializedVersion: 2
-        x: 1754
-        y: 0
-        width: 218
-        height: 218
+        x: 1755
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_9
       rect:
         serializedVersion: 2
-        x: 1973
-        y: 0
-        width: 219
-        height: 218
+        x: 1975
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +356,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_10
       rect:
         serializedVersion: 2
-        x: 2192
-        y: 0
-        width: 219
-        height: 218
+        x: 2194
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +378,10 @@ TextureImporter:
       name: Bubble Sprite Sheet Fixed_11
       rect:
         serializedVersion: 2
-        x: 2411
-        y: 0
-        width: 219
-        height: 218
+        x: 2413
+        y: 1
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 41453ac4bd788144ca966a23731324d8
     internalID: 0
     vertices: []
     indices: 
